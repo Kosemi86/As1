@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    android:orientation="vertical"
+    tools:context=".DashBoard">
+
+
+    <TextView
+        android:id="@+id/edtDash"
+        android:layout_width="326dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="52dp"
+        android:text="Dashboard"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnStorage"
+        android:layout_width="397dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="7dp"
+        android:background="#934141"
+        android:backgroundTint="#733F3F"
+        android:text="File storage"
+        android:textColor="#FDFDFD"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtDash" />
+
+    <Button
+        android:id="@+id/btnActivity1"
+        android:layout_width="397dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="4dp"
+        android:text="ColorChange"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnQuiz"
+        android:layout_width="397dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="336dp"
+        android:background="#934141"
+        android:backgroundTint="#733F3F"
+        android:text="Quiz"
+        android:textColor="#FDFDFD"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActivity1"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="8dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
